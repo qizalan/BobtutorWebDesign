@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: #212121;
+    color: #adadad;
+    font-family: Mojave, Arial, sans-serif;
+  }
+  
+  a {
+    color: #4dd0e1;
+  }
+  
+  nav {
+    display: block;
+    padding: 8px;
+    background-color: #adadad;
+  }
+  
+  nav a {
+    padding: 8px;
+    text-decoration: none;
+    color: #212121;
+  }
+  
+  nav a:hover {
+    background-color: #212121;
+    color: #adadad;
+  }
+  
+  input {
+    background-color: #adadad;
+    color: #212121;
+  }
+  
+  textarea {
+    resize: none;
+    background-color: #adadad;
+    color: #212121;
+  }
+  
+  button {
+    background-color: #adadad;
+    color: #212121;
+  }
+  
+  pre {
+    font-family: Mojave, Arial, sans-serif;
+  }
