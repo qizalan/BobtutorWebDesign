@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Foo's Pies - Order Online</title>
+  <style>
+    body {
+      background-color: #fff;
+      font-family: "Mohave Medium", Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #c00;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #fff;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #c00;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    form label {
+      display: block;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    form input[type="text"],
+    form select {
+      width: 200px;
+      padding: 5px;
+      margin-top: 5px;
+    }
+
+    form input[type="submit"] {
+      background-color: #c00;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #c00;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Foo's Pies</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order Online</a></li>
+        <li><a href="location.html">Our Location</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Order Online</h2>
+      <p>Ordering is easy! Just fill out the form below and we'll have your pizza ready for pickup or delivery.</p>
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address"><br>
+        <label for="pizza">Select a pizza:</label><br>
+        <select id="pizza" name="pizza">
+          <option value="pepperoni">Pepperoni</option>
+          <option value="mushroom">Mushroom</option>
+          <option value="sausage">Sausage</option>
+          <option value="cheese">Cheese</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; Foo's Pies 2023</p>
+  </footer>
+</body>
+</html>

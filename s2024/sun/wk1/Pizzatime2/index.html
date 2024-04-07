@@ -1,0 +1,132 @@
+<!DOCTYPE html> <!-- This is the document type declaration for an HTML document -->
+<html>
+<head>
+  <title>Foo's Pies</title> <!-- The title of the web page displayed in the browser's tab -->
+  <style>
+    body {
+      background-color: #fff; /* Set the background color of the body to white */
+      font-family: "Mohave Medium", Arial, sans-serif; /* Specify the font family for the body text */
+      color: #333; /* Set the text color to a shade of gray */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+    }
+
+    header {
+      background-color: #c00; /* Set the background color of the header to red */
+      padding: 20px; /* Add padding to the header */
+    }
+
+    h1 {
+      color: #fff; /* Set the text color of h1 to white */
+      margin: 0; /* Remove margin for h1 */
+    }
+
+    nav ul {
+      list-style-type: none; /* Remove bullets for the list in the navigation */
+      margin: 0; /* Remove margin for the list */
+      padding: 0; /* Remove padding for the list */
+    }
+
+    nav ul li {
+      display: inline; /* Display list items horizontally */
+      margin-right: 10px; /* Add right margin between list items */
+    }
+
+    nav ul li a {
+      color: #fff; /* Set the text color of navigation links to white */
+      text-decoration: none; /* Remove underlines from navigation links */
+    }
+
+    main {
+      padding: 20px; /* Add padding to the main content area */
+    }
+
+    section {
+      margin-bottom: 30px; /* Add margin at the bottom of each section */
+    }
+
+    .shrink-image {
+        max-width: 100%; /* Set the maximum image width to the container width */
+        height: auto; /* Maintain image aspect ratio */
+    }
+
+    @media (min-width: 768px) { /* Media query for screens wider than 768px */
+        .shrink-image {
+            max-width: 80%; /* Reduce image width for larger screens */
+        }
+    }
+
+    @media (min-width: 1024px) { /* Media query for screens wider than 1024px */
+        .shrink-image {
+            max-width: 600px; /* Set a maximum width for the image on even larger screens */
+        }
+    }
+
+    h2 {
+      color: #c00; /* Set the text color of h2 to red */
+    }
+
+    p {
+      line-height: 1.5; /* Specify the line height for paragraphs */
+    }
+
+    ul {
+      list-style-type: disc; /* Set the list style type to bullets */
+      padding-left: 20px; /* Add left padding to the list */
+    }
+
+    form label {
+      display: block; /* Display labels as block elements */
+      font-weight: bold; /* Make labels bold */
+      margin-top: 10px; /* Add top margin to labels */
+    }
+
+    form input[type="text"],
+    form select {
+      width: 200px; /* Set the width for text input and select elements */
+      padding: 5px; /* Add padding to text input and select elements */
+      margin-top: 5px; /* Add top margin to text input and select elements */
+    }
+
+    form input[type="submit"] {
+      background-color: #c00; /* Set the background color of submit buttons to red */
+      color: #fff; /* Set the text color of submit buttons to white */
+      border: none; /* Remove the border of submit buttons */
+      padding: 10px 20px; /* Set padding for submit buttons */
+      cursor: pointer; /* Change the cursor on hover to indicate a clickable element */
+    }
+
+    footer {
+      background-color: #c00; /* Set the background color of the footer to red */
+      padding: 20px; /* Add padding to the footer */
+      text-align: center; /* Center-align the text in the footer */
+      color: #fff; /* Set the text color of the footer to white */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Foo's Pies</h1> <!-- Display the website title in the header -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li> <!-- Navigation link to the Home page -->
+        <li><a href="menu.html">Menu</a></li> <!-- Navigation link to the Menu page -->
+        <li><a href="order.html">Order Online</a></li> <!-- Navigation link to the Order Online page -->
+        <li><a href="location.html">Our Location</a></li> <!-- Navigation link to the Our Location page -->
+        <li><a href="about.html">About Us</a></li> <!-- Navigation link to the About Us page -->
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>HOT OFFER: 25% OFF FOR ALL PURCHASES!</h2> <!-- Display a special offer heading -->
+    <p>Welcome to Foo's Pies!</p> <!-- Display a welcome message -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg" alt="Alternative Text" class="shrink-image">
+    <!-- Display an image with alternative text and apply the "shrink-image" class for responsive sizing -->
+    <h2>Recent News</h2> <!-- Display a heading for recent news -->
+    <p>There is no news :(</p> <!-- Display a message indicating no recent news -->
+  </main>
+  <footer>
+    <p>&copy; Foo's Pies 2023</p> <!-- Display copyright information in the footer -->
+  </footer>
+</body>
+</html>
