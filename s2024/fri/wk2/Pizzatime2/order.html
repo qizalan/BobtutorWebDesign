@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Foo's Pies - Order Online</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Foo's Pies</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order Online</a></li>
+        <li><a href="location.html">Our Location</a></li>
+        <li><a href="about.html">About Us</a></li>
+		<div class="header-button">
+          <a href="signin.html">Sign In</a>
+        </div>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Order Online</h2>
+      <p>Ordering is easy! Just fill out the form below and we'll have your pizza ready for pickup or delivery.</p>
+      <form action="pay.html" method="POST">
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name"><br>
+		<label for="phone">Phone:</label><br>
+		<input type="text" id="phone" name="phone"><br>
+		<label for="address">Address:</label><br>
+		<input type="text" id="address" name="address"><br>
+		<label for="pizza">Select a pizza:</label><br>
+		<select id="pizza" name="pizza">
+		  <option value="pepperoni">Pepperoni</option>
+		  <option value="mushroom">Mushroom</option>
+		  <option value="sausage">Sausage</option>
+		  <option value="cheese">Cheese</option>
+	  </select><br><br>
+	  <input type="submit" value="Submit">
+	  </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; Foo's Pies 2023</p>
+  </footer>
+</body>
+</html>
